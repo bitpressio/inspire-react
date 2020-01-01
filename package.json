@@ -1,0 +1,25 @@
+{
+  "name": "@bitpress/inspire-react",
+  "version": "0.0.1",
+  "description": "Example react component with Typescript",
+  "main": "lib",
+  "types": "lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitpressio/inspire-react.git"
+  },
+  "author": "Paul Redmond <paulrredmond@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "npm run build -- -w"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "react": "^16.12.0",
+    "typescript": "^3.7.4"
+  }
+}
